@@ -3,27 +3,27 @@ import Link from 'next/link'
 
 const navLinks = [
   {
-    path: '#home',
+    path: '/',
     title: 'Home',
   },
 
   {
-    path: '#learn',
+    path: 'learn',
     title: 'Learn',
   },
 
   {
-    path: '#coaching',
+    path: 'coaching',
     title: 'Coaching',
   },
 
   {
-    path: '#training',
+    path: 'training',
     title: 'Training',
   },
 
   {
-    path: '#blogs',
+    path: 'blogs',
     title: 'Blogs',
   },
 ]

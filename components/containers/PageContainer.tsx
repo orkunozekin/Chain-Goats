@@ -9,7 +9,7 @@ const PageContainer = ({
 }) => {
   return (
     <section
-      className={`flex flex-col items-center justify-between pb-10 ${className}`}>
+      className={`flex flex-col items-center justify-between pb-10 text-white ${className}`}>
       {children}
     </section>
   )

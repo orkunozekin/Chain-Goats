@@ -1,0 +1,27 @@
+.containerWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .counterItem {
+    width: 33%;
+    text-align: center;
+  }
+
+  .counterNumber,
+  .counterTitle {
+    background: var(--counter-color);
+    background-size: 100% 100%;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .counterNumber {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+
+  .counterTitle {
+    font-size: 1.5rem;
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.wordWrap": "on",
+  "svelte.enable-ts-plugin": true,
+  "svelte.plugin.svelte.note-new-transformation": false,
+  "javascript.format.semicolons": "remove",
+  "typescript.format.semicolons": "remove",
+  "javascript.preferences.quoteStyle": "single",
+  "typescript.preferences.quoteStyle": "single",
+  "workbench.tree.indent": 4,
+  "editor.tabSize": 2,
+  "search.useGlobalIgnoreFiles": true,
+  "cSpell.noConfigSearch": true,
+  "emmet.excludeLanguages": [],
+  "javascript.preferences.jsxAttributeCompletionStyle": "none",
+  "html.format.contentUnformatted": "",
+  "emmet.triggerExpansionOnTab": true,
+  "files.associations": {
+    "*html": "html"
+  },
+  "emmet.useInlineCompletions": true,
+  "emmet.preferences": {},
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "diffEditor.wordWrap": "on",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+
+  "cSpell.words": [
+    "antd",
+    "cloverly",
+    "unsdg"
+  ]
+}

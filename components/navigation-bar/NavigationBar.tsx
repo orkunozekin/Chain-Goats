@@ -3,7 +3,9 @@ import MenuIcon from '@mui/icons-material/Menu'
 import MenuOpenIcon from '@mui/icons-material/MenuOpen'
 import useMediaQuery from '@mui/material/useMediaQuery'
 import Drawer from 'antd/lib/drawer'
+import Image from 'next/image'
 import NavbarLinks from './NavbarLinks'
+import chainGoats from '../../public/assets/cg-4.png'
 import LightThemeBtn from '../buttons/light-theme-btn/LightThemeBtn'
 
 const NavigationBar = () => {
@@ -17,12 +19,19 @@ const NavigationBar = () => {
   return (
     <>
       <header
-        className={`flex h-20 w-full items-center justify-around px-12 py-6 leading-[80px]`}>
-        <h2 className="text-2xl font-bold text-primary">CHAIN GOATS</h2>
+        className={`flex h-20 w-full items-start justify-around px-12 py-6 leading-[80px]`}>
+        {/* <h2 className="text-2xl font-bold text-primary">CHAIN GOATS</h2> */}
+        <Image
+          className="mt-[-57px]"
+          src={chainGoats}
+          alt="chain goats"
+          width={150}
+          height={50}
+        />
         {/*---Navigation---*/}
         {!smallWidth ? (
           <>
-            <ul className="flex list-none items-center gap-11">
+            <ul className="mt-2 flex list-none items-center gap-11">
               <NavbarLinks />
             </ul>
             <LightThemeBtn />

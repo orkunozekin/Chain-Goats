@@ -6,22 +6,18 @@ const navLinks = [
     path: '/',
     title: 'Home',
   },
-
   {
     path: 'learn',
     title: 'Learn',
   },
-
   {
     path: 'coaching',
     title: 'Coaching',
   },
-
   {
     path: 'training',
     title: 'Training',
   },
-
   {
     path: 'blogs',
     title: 'Blogs',

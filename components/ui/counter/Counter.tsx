@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from '../../styles/Counter.module.scss'
+import styles from './Counter.module.scss'
 
 const counterData = [
   {
@@ -19,11 +19,15 @@ const counterData = [
 
 const Counter = () => {
   return (
-    <div className={styles.containerWrapper}>
+    <div className="item-center flex justify-between">
       {counterData?.map((item, index) => (
-        <div className={styles.counterItem} key={index}>
-          <h3 className={styles.counterNumber}>{item.number}+</h3>
-          <h4 className={styles.counterTitle}>{item.text}</h4>
+        <div
+          className="w-1/3 bg-gradient-to-tr from-counter-color bg-clip-text "
+          key={index}>
+          <h3 className="mb-[10px] bg-gradient-to-r from-counter-color bg-clip-text text-5xl">
+            {item.number}+
+          </h3>
+          <h4 className="text-2xl">{item.text}</h4>
         </div>
       ))}
     </div>

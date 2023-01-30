@@ -1,4 +1,5 @@
 import Head from 'next/head'
+// import Counter from '../components/ui/counter/Counter'
 import Hero from '../components/ui/hero/Hero'
 
 export default function Home() {
